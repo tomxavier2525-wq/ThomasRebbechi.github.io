@@ -1,0 +1,238 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+   margin:0px;
+   padding:0px;
+   box-sizing: border-box; 
+   font-size:20px;
+}
+article {
+	background-color: white;
+	
+}
+
+img,
+iframe {
+max-width: 100%;
+height: auto;
+/* so that aspect ratio is kept even if height is declared in markup */ 
+border: none;
+/* this stops a border if the image is inside a link */
+}
+
+/* This is a CSS comment.
+Always comment your work to explain what you're doing */ 
+body {
+font-family: arial, sans-serif;
+	background-image: url("hufflepuff background 2.png");
+    background-repeat: repeat;
+    background-size: 300px;
+	}
+
+/*
+background color defaults
+Note that HTML and CSS use American spelling (color not colour). */
+
+header {
+       background-color:rgba(255,0,4,0.00);
+	font-size: 60px;
+	font-family: "cesso", sans-serif;
+font-style: normal;
+       }
+/* Note that if we want a number of different elements to have the same style, we just comma separate them. */
+header, footer {
+               text-align:center;
+               }
+/*TYPEOGRAPOHY!*/
+H1 {
+	font-size:100px; 
+	color:white;
+	text-transform: uppercase;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	margin-bottom: px;
+}
+H2 { 
+	font-family: "cesso", sans-serif;
+
+font-style: normal;
+	font-size: 50px;
+	margin-top: -500px;
+		color:white;
+	margin-bottom: 350px;
+	margin-left: 100px;
+	
+		
+}
+h3 {
+	font-family:"carol-gothic", sans-serif;
+	font-size: 200px;
+		color:white;
+		
+}
+h4 {
+	font-size: 25px;
+font-family:"carol-gothic", sans-serif;
+margin: 20px;
+	color:black;
+}
+
+h5 {
+		font-family:"carol-gothic", sans-serif;
+	font-style: normal;
+font-size: 40px;
+	color: black;
+		
+}
+h6{
+	font-size: 200px;
+	font-family:  "dynapuff", sans-serif;
+	margin-bottom: -50px
+}
+h7{
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"
+}
+nav a{
+	text-colour: black;
+}
+nav b{
+	display: inline-block;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	margin-left: 400px;
+}
+nav bar b{
+	margin-left: 200px;
+}
+
+
+.item {
+	background-color: hsla(45,100%,64%,1.00);
+	background-size:300px;
+	padding: 1%;
+	margin: 35px;
+	margin-bottom: 20px; 
+	margin-top: 20px;
+	text-align: center;
+	border-radius: 100px;
+	
+		}
+main {
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+item li {
+	margin-left: 25px;
+}
+blockquote {
+	text-transform: uppercase;
+	font-style: oblique;
+
+}
+nav {
+	text-align: center; 
+	
+}
+nav li {
+	display: inline-block;
+}
+.nav-article nav a {
+    display: inline-block;
+    padding: 6px 14px;  
+    margin: 0 5px;
+
+    text-decoration: none;
+    color: black;
+	font-family: "carol-gothic", sans-serif;
+	text-transform: uppercase;
+
+    border-radius: 50px;
+    
+}
+	 .nav-article nav li {
+    display: inline-block;
+}
+.nav-article nav ul {
+    margin: 0;
+    padding: 0px;
+}
+.nav-article {
+    margin: 30px;
+    background: white;
+    border-radius: 100px;
+}
+
+.nav-article nav a:hover {
+    background: black;
+    color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 30px;
+}
+
+table td {
+    text-align: center;
+}
+
+table img {
+    width: 250px;
+    max-width: 100%;
+	border-radius: 100px
+}
+.img-box {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.img-box img {
+    width: 300px;
+    height: auto;
+    display: block;
+}
+
+/* dark overlay */
+.img-box::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0);
+    transition: 0.4s ease;
+	border-radius: 100px
+}
+
+.img-box:hover::after {
+    background: rgba(0, 0, 0, 0.45);
+}
+
+/* centered text */
+.hover-text {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50% );
+
+    color:#BCFCCF ;
+    font-size: 19px;
+    text-align: center;
+
+    opacity: 0;
+    transition: 3s ease;
+
+    z-index: 2;
+    pointer-events: none;
+}
+
+.img-box:hover .hover-text {
+    opacity: 1;
+	color: hsla(45,100%,64%,1.00);
+	font-family: "carol-gothic", sans-serif;
+	font-size: 30px;
+}
+.jacketmain img{
+width: 400px;
+border-radius: 1000px;
+}

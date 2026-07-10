@@ -1,0 +1,216 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+   margin:0px;
+   padding:0px;
+   box-sizing: border-box; 
+   font-size:20px;
+}
+article {
+	background-color: red;
+	
+}
+
+img,
+iframe {
+max-width: 100%;
+height: auto;
+/* so that aspect ratio is kept even if height is declared in markup */ 
+border: none;
+/* this stops a border if the image is inside a link */
+}
+
+/* This is a CSS comment.
+Always comment your work to explain what you're doing */ 
+body {
+font-family: arial, sans-serif;
+}
+
+/*
+background color defaults
+Note that HTML and CSS use American spelling (color not colour). */
+body {
+      background-color:red;
+     }
+header {
+       background-color:rgba(255,0,4,0.00);
+	font-size: 60px;
+	font-family: "cesso", sans-serif;
+font-style: normal;
+       }
+/* Note that if we want a number of different elements to have the same style, we just comma separate them. */
+header, footer {
+               text-align:center;
+               }
+/*TYPEOGRAPOHY!*/
+H1 {
+	font-size:100px; 
+	color:white;
+	text-transform: uppercase;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	margin-bottom: px;
+}
+H2 { 
+	font-family: "cesso", sans-serif;
+
+font-style: normal;
+	font-size: 50px;
+	margin-top: -500px;
+		color:red;
+	margin-bottom: 350px;
+	margin-left: 100px;
+	
+		
+}
+h3 {
+	font-family: "carol-gothic", sans-serif;
+	color: black;
+	font-size: 140px;
+	margin-bottom: -30px;
+		
+}
+h4 {
+	font-size: 45px;
+	margin-bottom: -50px;
+	text-align: center;
+	font-family:  "carol-gothic", sans-serif;
+	
+}
+
+h5 {
+		font-family:"carol-gothic", sans-serif;
+	font-style: normal;
+font-size: 50px;                        
+		}
+h6{
+	font-family: "carol-gothic", sans-serif;
+	font-size: 20px;
+	
+}
+
+
+
+.item {
+	background-color: #F0C8FF;
+	padding: 2%;
+	margin: 100px;
+	
+	text-align: center;
+	border-radius: 100px;
+	
+		}
+
+blockquote {
+	text-transform: uppercase;
+	font-style: oblique;
+}
+nav {
+	text-align: center; 
+}
+nav li {
+	display: inline-block;
+}
+.nav-article nav a {
+    display: inline-block;
+    padding: 6px 14px;  
+    margin: 0 5px;
+
+    text-decoration: none;
+    color: white ;
+	font-family:"carol-gothic", sans-serif;
+
+    border-radius: 100px;
+    
+}
+	 .nav-article nav li {
+    display: inline-block;
+}
+.nav-article nav ul {
+    margin: 0;
+    padding: 0px;
+}
+.nav-article {
+    margin: 30px;
+    background: black;
+    border-radius: 100px;
+}
+
+
+.nav-article nav a:hover {
+    background:  #F0C8FF;
+    color: black;
+}
+
+body {
+	background-image: url("cloud background 1.png");
+	background-size: 250px;
+background-repeat: repeat ;
+	
+}
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 20px;
+}
+table td {
+    text-align: center;
+}
+
+table img {
+    max-width: 100%;
+	border-radius: 100px
+}
+.img-box {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.img-box img {
+    width: 250px;
+    height: auto;
+    display: block;
+}
+
+/* dark overlay */
+.img-box::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0);
+    transition: 0.4s ease;
+	border-radius: 100px
+}
+
+.img-box:hover::after {
+    background: rgba(0, 0, 0, 0.45);
+}
+
+/* centered text */
+.hover-text {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%);
+
+    color:hsla(284,100%,89%,1.00);
+    font-size: 21px;
+	font-family: "carol-gothic", sans-serif;
+    text-align: center;
+
+    opacity: 0;
+    transition: 3s ease;
+
+    z-index: 2;
+    pointer-events: none;
+}
+
+.img-box:hover .hover-text {
+    opacity: 1;
+}
+.jacketmain img{
+width: 400px;
+border-radius: 50px;
+}
+
